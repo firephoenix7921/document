@@ -1,32 +1,33 @@
 {
   "logo": {
-    "text": "Hexo Doc Theme Seed",
+    "text": "钱伴对接相关文档",
     "type": "link",
-    "path": "index.html"
+    "path": "login/index.html"
   },
   "main": [
     {
-      "text": "SWAGGER",
-      "type": "label"
+      "text": "兼容性测试",
+      "type": "link",
+      "path": "compatibility/index.html"
     },
     {
-      "text": "UI",
+      "text": "联合登录相关",
       "type": "link",
-      "path": "swagger/ui.html"
+      "path": "login/index.html"
     },
     {
-      "text": "To HTML",
+      "text": "数据回传相关",
       "type": "link",
-      "path": "swagger/to-html.html"
+      "path": "postBack/index.html"
+    },
+    {
+      "text": "测试验收相关",
+      "type": "link",
+      "path": "test/index.html"
     },
     {
       "text": "SUPPORT AND FEEDBACK",
       "type": "label"
-    },
-    {
-      "text": "Raise an Issue on Github",
-      "type": "link",
-      "path": "https://github.bus.zalan.do/stargate/hexo-stargate-doc-theme-seed/issues/new"
     }
   ]
 }
