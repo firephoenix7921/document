@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 信跃对接文档
+title: 钱伴对接文档
 author: xinyue
 timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-root: /xinyue.github.io/
+root: /qianban.github.io/
 
 # Writing
 relative_link: false
@@ -28,5 +28,5 @@ ignore:
 
 deploy: 
   type: git 
-  repository: https://github.com/firephoenix7921/xinyue.github.io.git 
+  repository: https://github.com/firephoenix7921/qianban.github.io.git 
   branch: master 
