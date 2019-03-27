@@ -48,6 +48,8 @@
 
 ```java
 WacaiOpenApiClient wacaiOpenApiClient = new WacaiOpenApiClient("${appKey}", "${appSecret}");
+// 测试联调时使用，将调用请求指向挖财的沙箱环境，生产环境请删除
+wacaiOpenApiClient.setGatewayEntryUrl("http://guard.ngrok.wacaiyun.com/gw/api_entry");
 wacaiOpenApiClient.init();
 WacaiOpenApiRequest wacaiOpenApiRequest = new WacaiOpenApiRequest("${API名称}", "${API版本号}");
 wacaiOpenApiRequest.putBizParam("约定的参数1", "34121141242144");
