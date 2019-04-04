@@ -15,7 +15,7 @@
 1. 合作机构提交合作意向
 2. 合作机构需求确定
 3. 签订合作协议
-4. 合作机构从业务方获取测试环境 appKey、appSecret，并加载业务方提供的 SDK
+4. 合作机构从业务方获取测试环境 appKey、appSecret等参数，并加载业务方提供的 SDK
 5. 合作机构依据本文档进行系统研发（包括 App 开发）、自测、联调（业务方提供技术支持）
 6. 合作机构自测并联调完毕后，提供 App 测试包，申请测试
 7. 业务方测试人员进行全流程验证和测试
@@ -80,7 +80,7 @@ OrderDeleteResponseObject wacaiOpenApiResponse = wacaiOpenApiClient.invoke(wacai
 | mob        | string     | yes      | 用户手机号                                                   |
 | sourceMc   | string     | yes      | 业务方分配给合作机构市场码，业务方提供                       |
 | sourceAf   | string     | yes      | 业务方分配给合作机构的渠道号，业务方提供                     |
-| map        | JsonObject | no       | 自定义参数需放在 map 参数里传给业务方，代码示例<br/>  `wacaiOpenApiRequest.putBizParam("map", {"name": "xxxxx", "idNo": "4242424242424234234"});` |
+| map        | JsonObject | no       | 扩展参数需放在 map 里传给业务方，如姓名手机号等，代码示例<br/>  `wacaiOpenApiRequest.putBizParam("map", {"name": "xxxxx", "idNo": "4242424242424234234"});` |
 
 ### response说明
 
